@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [[ $# -lt 1 ]]; then
+    echo "Make sure you say how many directories you need"
+    exit 2
+fi
+for (( i=0; i<$1; i++ ));
+do
+	DIR_NAME="dir$i"
+	mkdir $DIR_NAME
+	cp -R originalCopy/. $DIR_NAME
+done
