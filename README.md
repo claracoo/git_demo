@@ -4,6 +4,8 @@ Related to this slideshow:
 https://docs.google.com/presentation/d/1ndSqG7PhwBwRgj71c9uWaXztQPgjgVSef9lm5cPlQ8s/edit?usp=sharing
 
 Steps:
+
+Part 1
 1. Open VScode and go to Terminal > New Terminal
 2. Navigate to your desktop inside the new terminal, and make a directory for this demo, `mkdir [NAME THIS DIRECTORY]`
 3. Navigate so you are inside your directory, `cd [THING YOU NAMED YOUR DIRECTORY]`
@@ -14,8 +16,15 @@ Steps:
 7. Find the folder labeled "dir" with your assigned number at the end. Use the right click function to rename that directory your first name.
 8. Open the file inside your directory, and use the text editor to add a new sentence to the bottom of the file.
 9. Safe this file with command s for mac or control s for windows and linux. Or go to File > Save
-10. Return to the terminal.
+10. Return to the terminal, and make sure you are inside the github repository.
 11. Add the new file: `git add .`
 12. Lockin your submissions: `git commit -m "useful message"`
 13. Send your answers to github: `git push`
 14. Go check on github to see your changes update.
+
+
+Part 2:
+1. Return to the terminal, and run `git pull`; again, you must be in the directory from github
+2. Go look at someone else's example.txt file. Copy their new line and add it to the bottom of your file. Please only change your file!!! Only look/copy from theirs!!!
+3. Save the file!
+4. Try adding, committing, and pushing this new change to github! See if you can remember the commands :)
